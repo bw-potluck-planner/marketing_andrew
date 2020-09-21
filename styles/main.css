@@ -96,7 +96,18 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
+  
 }
-h1,h2{
+h1,h2,H3,H4,H5,H6{
     font-family: 'Courgette', cursive;
+}
+.about_section .about svg{
+    width: 30px;
+    height: 30px;
+}
+H1{
+
+}
+.about nav span{
+  
 }
