@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@200;400;600&display=swap');
 /*CSS RESET*/
 html,
 body,
@@ -94,5 +95,8 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.5;
-  font-family: "Raleway", sans-serif; /*PICK YOUR FONT*/
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2{
+    font-family: 'Courgette', cursive;
 }
