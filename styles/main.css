@@ -102,12 +102,17 @@ h1,h2,H3,H4,H5,H6{
     font-family: 'Courgette', cursive;
 }
 .about_section .about svg{
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
 }
-H1{
 
-}
 .about nav span{
-  
+display: inline-block;
+font-size: 5rem;
+}
+.info_card img{
+  border-radius: 50%;
+  border: .15rem solid ;
+  width:4rem;
+  height:4rem;
 }
