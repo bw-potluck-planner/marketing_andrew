@@ -87,8 +87,19 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  /* border:1px solid #D64933; edit this out before final commit */
+}
+:root{
+  --site-orange:#D64933;
+  --site-olive:#36382E;
+  --site-burgandy:#402a2c;
+  --site-gray:#7d8491;
+  --site-papaya:#FDF0D5;
 }
 /*GENERAL STYLES*/
+*{
+  box-sizing:;
+}
 html {
   font-size: 62.5%;
 }
@@ -96,25 +107,56 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
-  background-color: #FDF0D5;
+  background-color:var(--site-papaya);
   color:#36382E;
+  margin:auto;
   
+
 }
 h1,h2,H3,H4,H5,H6{
     font-family: 'Courgette', cursive;
+}
+h1{
+  font-size: 5rem;
+  text-align:center;
+  margin-bottom:3%;
+}
+h2{
+  font-size:2.5rem;
 }
 .about_section .about svg{
     width: 3rem;
     height: 3rem;
 }
-
 .about nav span{
 display: inline-block;
 font-size: 5rem;
 }
 .info_card img{
   border-radius: 50%;
-  border: .3rem solid #D64933;
+  border: .3rem solid var(--site-orange);
   width:6rem;
   height:6rem;
+}
+main{
+  width:100%;
+   
+}
+main .marketing{
+  width:100%;
+  text-align: center;
+}
+header div img{
+  width:100%;
+}
+header nav{
+  display:flex;
+}
+.info_card{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  border:.3rem solid var(--site-gray);
+  margin:3%;
+  border-radius: 1rem;
 }
