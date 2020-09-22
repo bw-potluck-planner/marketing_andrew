@@ -87,7 +87,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  /* border:1px solid #D64933; edit this out before final commit */
+  /* border:1px solid #D64933;  */
 }
 :root{
   --site-orange:#D64933;
@@ -110,9 +110,8 @@ body {
   background-color:var(--site-papaya);
   color:#36382E;
   margin:auto;
-  
-
-}
+} 
+/* headings start */
 h1,h2,H3,H4,H5,H6{
     font-family: 'Courgette', cursive;
 }
@@ -120,10 +119,12 @@ h1{
   font-size: 5rem;
   text-align:center;
   margin-bottom:3%;
+  color:var(--site-orange);
 }
 h2{
   font-size:2.5rem;
 }
+/* headings end */
 .about_section .about svg{
     width: 3rem;
     height: 3rem;
@@ -132,31 +133,82 @@ h2{
 display: inline-block;
 font-size: 5rem;
 }
+/* info section start */
 .info_card img{
   border-radius: 50%;
   border: .3rem solid var(--site-orange);
   width:6rem;
   height:6rem;
 }
-main{
-  width:100%;
-   
-}
-main .marketing{
-  width:100%;
-  text-align: center;
-}
-header div img{
-  width:100%;
-}
-header nav{
-  display:flex;
-}
 .info_card{
   display:flex;
   flex-direction: column;
   text-align: center;
+  width:40rem;
+  height:25rem;
   border:.3rem solid var(--site-gray);
-  margin:3%;
+  margin:4% auto;
   border-radius: 1rem;
+  padding: 1%;
+  background-color: var(--site-burgandy);
+  color:var(--site-papaya);
 }
+.info_card:hover{
+  border-radius: 1rem;
+  box-shadow: .5rem 1rem var(--site-olive);
+}
+/* info section end */
+main{
+  width:98%;
+  display: flex;
+  flex-direction: column; 
+  margin:auto;
+}
+/* marketing section start */
+main .marketing{
+  display: flex;
+  flex-direction: column;
+  width:96%;
+  text-align: center;
+  margin:auto;
+  padding-bottom: 2%;
+  border-bottom: 2px dashed var(--site-orange);
+  ;
+}  
+/* marketing section end */
+/* eat section start */
+.eat_section{
+  padding: 2%;
+  margin:1% 0;
+  color: var(--site-papaya);
+  background-color: var(--site-olive);
+
+}
+/* eat section end */
+/* plan section start */
+.plan_section{
+  padding: 2%;
+  margin:1% 0;
+  color: var(--site-papaya);
+  background-color: var(--site-olive);
+}
+/* plan section end */
+/* potluck section start */
+.potluck_section{
+  padding: 2%;
+  margin:1% 0;
+  color: var(--site-papaya);
+  background-color: var(--site-olive);
+}
+/* potluck section end */
+/* hero image section start */
+header div img{
+  width:100%;
+}
+/* hero image section end */
+/* nav section start */
+header nav{
+  display:flex;
+}
+/* nav section end */
+
