@@ -104,7 +104,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.6rem;
+  font-size: calc(1.6rem + .2vw);
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
   background-color:var(--site-papaya);
@@ -116,13 +116,13 @@ h1,h2,H3,H4,H5,H6{
     font-family: 'Courgette', cursive;
 }
 h1{
-  font-size: 5rem;
+  font-size: calc(5rem + .2vw);
   text-align:center;
   margin-bottom:3%;
   color:var(--site-orange);
 }
 h2{
-  font-size:2.5rem;
+  font-size:calc(2.5rem + .2vw);
 }
 /* headings end */
 .about_section .about svg{
@@ -144,18 +144,14 @@ font-size: 5rem;
   display:flex;
   flex-direction: column;
   text-align: center;
-  width:40rem;
-  height:25rem;
+  width:95%;
   border:.3rem solid var(--site-gray);
   margin:4% auto;
   border-radius: 1rem;
   padding: 1%;
   background-color: var(--site-burgandy);
+  box-shadow: .5rem 1rem .8rem var(--site-olive);
   color:var(--site-papaya);
-}
-.info_card:hover{
-  border-radius: 1rem;
-  box-shadow: .5rem 1rem var(--site-olive);
 }
 /* info section end */
 main{
@@ -209,6 +205,41 @@ header div img{
 /* nav section start */
 header nav{
   display:flex;
+  height: 6rem;
+  width:100%;
+  align-items: center;
+  background-color: var(--site-olive);
+  justify-content: space-evenly;
+}
+header nav a{
+  text-decoration: none;
+  padding:1%;
+  text-align: center;
+  background-color: var(--site-olive);
+  color:var(--site-papaya);
+}
+header nav a:active{
+  color: var(--site-orange);
+  transform: translateY(8%);
 }
 /* nav section end */
 
+@media (min-width:800px){
+ 
+  .info_card_section{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content: space-between;
+  }
+  .info_card{
+   display:inline-flex;
+   width:42.9%;
+   margin:2%;
+  }
+}
+@media (min-width:1024px){
+  body{
+    max-width: 1024px;
+  }
+}
