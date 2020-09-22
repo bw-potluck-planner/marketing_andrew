@@ -96,6 +96,8 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
+  background-color: #FDF0D5;
+  color:#36382E;
   
 }
 h1,h2,H3,H4,H5,H6{
@@ -112,7 +114,7 @@ font-size: 5rem;
 }
 .info_card img{
   border-radius: 50%;
-  border: .15rem solid ;
-  width:4rem;
-  height:4rem;
+  border: .3rem solid #D64933;
+  width:6rem;
+  height:6rem;
 }
