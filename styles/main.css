@@ -165,6 +165,7 @@ h2 {
 .about_section article {
   display: flex;
   flex-direction: column;
+  position: relative;
   text-align: center;
   width: 95%;
   border: 0.3rem solid var(--site-gray);
@@ -184,6 +185,19 @@ h2 {
   padding: 2%;
   margin: 2%;
   border-bottom: 1px solid var(--site-gray);
+}
+.about_section .links{
+position: absolute;
+bottom: 1rem;
+left:0;
+text-align: center;
+width: 100%;
+}  
+.about p{
+  margin-bottom: 8rem;
+}
+.about{
+  width:100%;
 }
 /* about page info cards end */
 main {
