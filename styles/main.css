@@ -238,7 +238,8 @@ header .logo {
   font-family: "Courgette", cursive;
   text-align: left;
   padding: 1%;
-  flex: 3;
+  margin-right: auto;
+  
 }
 header nav {
   display: flex;
@@ -250,10 +251,8 @@ header nav {
 }
 header nav a {
   text-decoration: none;
-  flex: 1;
   padding: 1%;
   text-align: center;
-  background-color: var(--site-olive);
   color: var(--site-papaya);
 }
 header nav a:active {
